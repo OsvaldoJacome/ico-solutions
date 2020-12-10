@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sistemas De Control</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+
+ 
+
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section contact-section" >
+    <br>
+    <br>
+    
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+        <!--Card materias Inscritas-->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <!--<i class="fas fa-map-marked-alt text-primary mb-2"></i>-->
+              <h4 class="text-uppercase m-0">Materias Inscritas</h4>
+              <hr class="my-4">
+
+              <ul id="id_facturas" style="text-align: left;"></ul>
+              
+              </div>
+            </div>
+          </div>
+
+          <!--Card Materias Disponibles-->
+          <div class="col-md-4 mb-3 mb-md-0 overflow-hidden">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center ">
+                
+                <!--<i class="fas fa-map-marked-alt text-primary mb-2"></i>-->
+                <h4 class="text-uppercase m-0">Materias Disponibles</h4>
+                
+                <hr class="my-4">
+
+                <ul id="materias_disp" style="text-align: left;">
+                  <li>Bases de Datos</li>
+                  <li>Sistemas de Control</li>
+                  <li>Sistemas de Información</li>
+                  <li>Microprocesadores y Microcontroladores</li>
+                  <li>Temas Especiales de Programación</li>
+                  
+                </ul>
+                
+                </div>
+              </div>
+            </div>
+         
+
+          <!--Card informacion de Carrera-->
+          
+          <div class="col-md-4 mb-3 mb-md-0 ">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <!--<i class="fas fa-map-marked-alt text-primary mb-2"></i>-->
+                <h4 class="text-uppercase m-0">Carrera: Ingenieria en computación</h4>
+                <hr class="my-4">
+                
+                <h4 class="text-uppercase m-0">Desarrolladores: </h4>
+                <br>
+                <p>
+                <ul id="desarrolladores" style="text-align: left;">
+                  <li>Fernando Martinez Sanchez</li>
+                  <li>Osvaldo Bonilla Jácome</li>
+                 
+                </ul>
+              </p>
+                </div>
+              </div>
+            </div>
+
+
+
+      </div>     
+    </div> 
+    <!--
+    
+
+  -->
+  </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+  
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Ingresa el nombre de la materia a inscribir</h2>
+  
+            <form class="form-inline d-flex" id="facturas">
+              <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="addFacturas" placeholder="Inscribir Materia">
+              <button type="submit" class="btn btn-primary mx-auto">Inscribir</button>
+            </form>
+            <br>
+            
+            <form class="form-inline d-flex" id="borraFacturas">
+              <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="borra_id" placeholder="Eliminar Materia... ten en cuenta que tiene que estar escrita como la inscribiste">
+              <button type="submit" class="btn btn-primary mx-auto">Eliminar</button>
+            </form>
+            <br>
+<!--            <form class="form-inline d-flex" id="borraFacturas">
+              <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="borra_id" placeholder="Editar Materias">
+              <button type="submit" class="btn btn-primary mx-auto">Editar...</button>
+            </form>
+-->
+  
+  
+          </div>
+          <div class="form-group">
+            <a class="btn btn-primary js-scroll-trigger" href="login.html">Terminar</a>
+        </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      ICO &copy; Tu Sitio Web 2020
+    </div>
+  </footer>
+
+  <!-- Login-->
+  <script src="login.js"></script>
+  <!-- Local Storage-->
+  <script src="localStorage.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
